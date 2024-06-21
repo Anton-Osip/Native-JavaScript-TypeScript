@@ -1,12 +1,14 @@
 import React from 'react';
-import {a} from "./Lessons/Lesson01_01";
+import {Lesson01_01} from "./Lessons/Lesson01_01";
+
+const lesson01 = Lesson01_01
+console.log(lesson01)
 
 function App() {
-  return (
-    <div >
-      {a}
-    </div>
-  );
+    return (
+        <div>
+        </div>
+    );
 }
 
 export default App;
